@@ -78,14 +78,14 @@ weather-data-pipeline/
 │
 ├── .env.example
 ├── .gitignore
-│
+├── README.md
 ├── database.py        # PostgreSQL connection
 ├── extract.py         # Extract weather data from API
+├── load.py            # Load data into PostgreSQL 
+├── main.py            # Run the ETL pipeline 
 ├── transform.py       # Clean & transform the data
-├── load.py            # Load data into PostgreSQL
-├── main.py            # Run the ETL pipeline
-│
-└── README.md
+
+
 ```
 
 ---
